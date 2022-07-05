@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    background: grey;
+    width: 100vw;
+    height: 470vh;
+    display: flex;
+    flex-direction: column;
+}
+.fI{
+    background:  rgb(238, 67, 5);
+    background-size: cover  ;
+    width: 100vw;
+    height: 70vh;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#titleName{
+    position: absolute;   
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
+    color: aliceblue;
+    
+}
+#titleName {
+  -moz-animation: marquee 2s linear ;
+  -webkit-animation: marquee 2s linear ;
+  animation: marquee 2s linear ;
+}
+
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%)
+  }
+  100% {
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+ .fI img{
+    width: 100vw;
+    height: 80vh;
+ }  
+    
+
+
+.fI h2{
+    position: relative;   
+    font-size: 50px;
+    margin-top: 170px;
+}
+
+
+.sI{
+    background: rgb(243, 128, 87);
+    width: 100vw;
+    padding: 5px;
+    margin: 2px;
+    height: 120vh;
+    padding: 5px;
+    margin: 2px;
+
+   
+}
+
+.sI h3{
+  -moz-animation: marquee 2s linear ;
+  -webkit-animation: marquee 2s linear ;
+  animation: marquee 2s linear ;
+}
+
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%)
+  }
+  100% {
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+
+#favFood1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+}
+#foodDescription{
+      color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#favFoodImage1{
+    border: 1.7px solid #ffffff;
+    padding: 10px;
+    margin-top: 26px;
+    margin-left: 335px;
+    height: 70vh;
+    width: 50vw;
+   
+}
+
+.tR{
+    background: rgb(117, 33, 65);
+    width: 100vw;
+    height: 140vh;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+    
+
+}
+
+.know1{
+  text-align: center;
+   
+  color: rgb(255, 255, 255);
+
+
+}
+.click1{
+  text-align: center;
+  color: aquamarine;
+
+
+}
+
+#favFoodImage2{
+    width: 60vw;
+    height: 70vh;
+    margin-top: 40px;
+    border: 2px solid white;
+    padding: 9px;
+    
+}
+#favFood2{
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Titan One', cursive;
+
+    -moz-animation: marquee 2s linear ;
+  -webkit-animation: marquee 2s linear ;
+  animation: marquee 2s linear ;
+}
+
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%)
+  }
+  100% {
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+}
+#foodDescription2{
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.know2{
+  text-align: center;
+   
+  color: white;
+
+
+}
+.click2{
+  text-align: center;
+  color: aquamarine;
+
+
+}
+.fR{
+  background-color: brown;
+  width: 100vw;
+  padding: 5px;
+    margin: 2px;
+  height: 130vh;
+  font-family: 'Permanent Marker', cursive;
+}
+#favFoodImage3{
+    width: 50vw;
+    height: 60vh;
+    margin-top: 50px;
+    margin-left: 330px;
+    border-radius: 20px;
+    
+    border: 2px solid white;
+    padding: 15px;
+}
+#favFood3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    padding: 30px;
+    -moz-animation: marquee 2s linear ;
+  -webkit-animation: marquee 2s linear ;
+  animation: marquee 2s linear ;
+}
+
+@-moz-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@-webkit-keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%)
+  }
+  100% {
+    -moz-transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
+    
+}
+
+
+#foodDescription3{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.know3{
+  text-align: center;
+   
+  color: white;
+
+
+}
+.click3{
+  text-align: center;
+  color: aquamarine;
+
+
+}
